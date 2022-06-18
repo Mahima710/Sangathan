@@ -1,0 +1,66 @@
+.main {
+    margin: auto;
+    width: 50vw;
+    height: max-content;
+    box-shadow: 3px 3px 21px -7px;
+    margin-top: 1rem;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subheading {
+    width: 100vw;
+    margin-top: 1.8rem;
+}
+
+.login {
+    margin: auto;
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.input {
+    width: 30vw;
+    margin-top: 0.9rem;
+}
+
+.category {
+    width: fit-content;
+    margin: auto;
+}
+
+.label {
+    width: fit-content;
+    left: 0;
+}
+
+.button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #163970;
+    color: white;
+    margin: auto;
+    padding: 12px;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    border: none;
+}
+
+.content {
+    margin: auto;
+    width: fit-content;
+}
+
+@media screen and (max-width : 500px) {
+    .main {
+        width: 100vw;
+    }
+
+    .input {
+        width: 60vw;
+    }
+}

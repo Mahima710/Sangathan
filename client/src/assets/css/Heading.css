@@ -1,0 +1,15 @@
+.container {
+    width: 100vw;
+    margin-top: 2rem;
+
+
+}
+
+.heading {
+    width: fit-content;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #163970;
+    font-family: 'Montserrat', sans-serif;
+}
